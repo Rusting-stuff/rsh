@@ -1,0 +1,11 @@
+[package]
+name = "rsh"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rustyline   = "11"
+dialoguer   = "0.11"
+shell-words = "1.1"
+shellexpand = "2"
+dirs = "5"

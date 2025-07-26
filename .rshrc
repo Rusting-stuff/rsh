@@ -1,0 +1,48 @@
+# ~/.rshrc - example config for rsh shell
+
+# ------------------------------------------
+# Aliases
+# ------------------------------------------
+# alias ll='ls -la'
+# alias gs='git status'
+
+# ------------------------------------------
+# Environment Variables
+# ------------------------------------------
+# export EDITOR=vim
+# export PATH=/bin:/usr/bin  # default PATH
+
+# ------------------------------------------
+# Prompt customization
+# ------------------------------------------
+# prompt 🦀❓> 
+
+# ------------------------------------------
+# Functions
+# ------------------------------------------
+# func greet echo "Welcome to rsh, $USER!"
+# func on_start echo "Don't forget to customize ~/.rshrc!"
+# func on_exit echo "Goodbye!"
+
+# ------------------------------------------
+# Hooks
+# ------------------------------------------
+# You can define commands to run on shell start or exit
+# func on_start echo "Shell starting..."
+# func on_exit echo "Shell exiting..."
+
+# ------------------------------------------
+# Plugins and Themes (future support)
+# ------------------------------------------
+# # plugin example-plugin
+# # theme default
+
+# ------------------------------------------
+# Usage Notes:
+# - Uncomment or add your own aliases, exports, and functions.
+# - Use 'func on_start' to run commands at shell startup.
+# - Use 'func on_exit' for commands on shell exit.
+# - Edit this file to customize your shell experience.
+
+# Example on_start to remind you to customize your rshrc:
+func on_start echo "Tip: Customize your shell by editing ~/.rshrc"

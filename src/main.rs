@@ -174,7 +174,7 @@ fn main() {
     ensure_path();
 
     if config.prompt.is_empty() {
-        config.prompt = "🦀❓> ".to_string();
+        config.prompt = "RSH=> ".to_string();
     }
 
     println!("After loading config, PATH: {}", std::env::var("PATH").unwrap());
